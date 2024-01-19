@@ -1,0 +1,250 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+    
+}
+.back{
+    background-image: url(img/n.jpg);
+}
+
+.button1 {
+    font-family: 'Bebas Neue', sans-serif;
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ff008c;
+    border: 2px solid #ff008c;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #0d0d0e;
+    transition: color 0.4s, background-color 0.4s, border-color 0.4s;
+}
+
+.button1:hover {
+    color: #fff;
+    background-color:#ff008c;
+    border-color: #fff;
+}
+
+
+.actividadesContainer {
+    text-align: center;
+  
+       font-family: 'Bebas Neue', sans-serif;
+      color: #eef2f3;
+      font-size: 40px;
+
+}
+
+.actividadesContainer {
+    text-align: center;
+    
+
+    
+}
+
+.actividadesContainer ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #ff00f2;
+    padding: 10px; /* Agrega un relleno alrededor del contenido de la lista */
+}
+
+.actividadesContainer li {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 5px 0;
+}
+
+.dias-semana {
+    background-color: #48e4f8; /* Color de fondo */
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+}
+
+
+
+.dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    padding: 0px;
+  
+}
+
+.horario{
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.actividad1 {
+    margin-left: 410px;
+    margin-top: -10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+.reservaBtn1,
+.reservaBtn2 {
+    margin-left: 260px;
+    position: relative;
+    display: inline-block;
+    background: rgb(245, 2, 136);
+    color: #f4f6f7;
+    border: none;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.Lunes{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+   
+}
+
+.reservaBtn1,
+.reservaBtn2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1; 
+}
+
+
+.reservaBtn1::before,
+.reservaBtn2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: -1; 
+}
+
+
+.reservaBtn1:hover::before,
+.reservaBtn2:hover::before {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.reservaBtn1:active::before,
+.reservaBtn2:active::before {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+.reservaBtn1 span,
+.reservaBtn2 span {
+    position: relative;
+    z-index: 2; 
+}
+
+
+.info2{
+
+
+    margin-left: 430px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.info1{
+
+
+    margin-left: 410px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.back{
+
+
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-image-width: 100%;
+}
+
+.Martes{
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+.dias-semana2 {
+    background-color: #facef8; /
+    padding: 20px; /
+}
+
+
+.reservaBtn2 {
+
+
+    margin-left: 280px;
+}
+
+.actividad2 {
+    margin-left: 430px;
+    margin-top: -10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+.info3{
+
+    margin-left: 420px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.info4{
+
+    margin-left: 460px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.dias-semana3 {
+    background-color: #0ef5f5; 
+    padding: 20px; 
+}
+
+.tuapp{
+
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+   
+    font-size: 40px;
+  
+    background: #0ef5f5; 
+    
+
+   
+
+}
+
+.dias-semana4{
+
+    background-color:#0ef5f5; 
+
+  
+
+}
